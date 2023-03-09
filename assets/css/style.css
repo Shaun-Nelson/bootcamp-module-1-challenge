@@ -1,4 +1,4 @@
-/* Reset default padding and margin */
+/* Reset default padding, margin, and box-sizing */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -60,6 +60,7 @@ header nav {
     font-size: 20px;
 }
 
+/* Remove default list bullets */
 header nav ul {
     list-style-type: none;
 }
